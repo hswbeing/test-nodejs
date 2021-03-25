@@ -86,8 +86,9 @@ router.get('/trusts', async function(req, res, next) {
       trusts.data.userData.accountDetails[0].portfolioDetails.push(profolio);
     }
   }
-  trusts.totalNetAssetValue = total;
-  trusts.totalNetAssetHKDValue = total * 7.8;
+  console.log("total: " + total);
+  trusts.data.userData.accountDetails[0].totalNetAssetValue = total;
+  trusts.data.userData.accountDetails[0].totalNetAssetHKDValue = total * 7.8;
   res.send(JSON.stringify(trusts));
 });
 
