@@ -5,8 +5,8 @@
   },
   "data": {
     "userData": {
-      "totalBalance": 2957941.71,
-      "totalAssetsEQV": 2957941.71,
+      "totalBalance": 15095538.651999999,
+      "totalAssetsEQV": 15095538.651999999,
       "totalLiabilitiesEQV": 0,
       "ccy": "HKD",
       "cardList": [
@@ -370,8 +370,8 @@
         },
         {
           "labelName": "UnitTrust",
-          "totalBalance": 530000,
-          "totalAssetsEQV": 530000,
+          "totalBalance": 12667596.942,
+          "totalAssetsEQV": 12667596.942,
           "totalLiabilitiesEQV": 0,
           "ccy": "HKD",
           "acctBalList": [

@@ -55,7 +55,6 @@ router.get('/trusts', async function(req, res, next) {
   let positions = positionResponseJson.Data;
   let total = 0;
   for (const position of positions) {
-    console.log(position)
     if (position.NetPositionBase.AssetType == 'Bond') {
       // Call Saxo's Instruments API
       const instrumentResponse = await fetch(
@@ -67,7 +66,6 @@ router.get('/trusts', async function(req, res, next) {
         }
       ).catch(err => console.error(err));
       const instrument = await instrumentResponse.json();
-      console.log(instrument);
       let profolio = {
         "productID": position.NetPositionBase.Uic,
         "productName": instrument.Description,
@@ -75,9 +73,9 @@ router.get('/trusts', async function(req, res, next) {
         "prodCcy": instrument.CurrencyCode,
         "noOfUnits": position.NetPositionBase.Amount,
         "prevClosePrice": position.NetPositionView.CurrentPrice,
-        "prevClosePriceType": position.NetPositionView.USD,
+        "prevClosePriceType": position.NetPositionView.ExposureCurrency,
         "unitDecimalPoint": 2,
-        "exchangeRate": position.NetPositionView.conversionRateCurrent,
+        "exchangeRate": position.NetPositionView.ConversionRateCurrent,
         "marketValue": position.NetPositionView.MarketValue,
         "marketValueHKD": position.NetPositionView.MarketValue * 7.8,
         "marketValueHKDType": "HKD"
@@ -89,6 +87,33 @@ router.get('/trusts', async function(req, res, next) {
   console.log("total: " + total);
   trusts.data.userData.accountDetails[0].totalNetAssetValue = total;
   trusts.data.userData.accountDetails[0].totalNetAssetHKDValue = total * 7.8;
+
+  total = total * 7.8;
+  let accTotal = 0;
+  // Update acc json
+  let acc = JSON.parse(fs.readFileSync('responses/acc.json'));
+  acc.data.userData.cardList.forEach((card) => {
+    console.log("card.labelName: " + card.labelName);
+    if (card.labelName == "UnitTrust") {
+      card.totalBalance = total
+      card.totalAssetsEQV = total
+      accTotal = accTotal + total;
+    }
+    if (card.labelName == "Deposit") {
+      accTotal = accTotal + card.totalBalance;
+    }
+    if (card.labelName == "Securities") {
+      accTotal = accTotal + card.totalBalance;
+    }
+    console.log("accTotal: " + accTotal);
+  });
+  
+  console.log("accTotal: " + accTotal);
+  acc.data.userData.totalBalance = accTotal;
+  acc.data.userData.totalAssetsEQV = accTotal;
+
+  fs.writeFileSync('responses/acc.json', JSON.stringify(acc, null, 2));
+
   res.send(JSON.stringify(trusts));
 });
 
