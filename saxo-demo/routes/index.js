@@ -28,4 +28,8 @@ router.get('/securities', function(req, res, next) {
   res.send(JSON.stringify(securities));
 });
 
+router.get('/overview', function(req, res, next) {
+  let overview = JSON.parse(fs.readFileSync('responses/overview.json'))
+  res.send(JSON.stringify(overview));
+});
 module.exports = router;

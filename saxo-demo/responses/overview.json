@@ -1,0 +1,122 @@
+{
+  "overview": {
+    "status": {
+      "code": "0000",
+      "message": "success"
+    },
+    "data": {
+      "pageData": {
+
+        "title": "My Portfolio",
+        "accountButtonName": {
+          "Premier": "Premier",
+          "Business": "Business",
+          "Personal": "Personal"
+        },
+        "summary": {
+          "Title1": "Assets",
+          "Title2": "Liabilities",
+          "Tips1": "Tips 1 Placeholder",
+          "Tips2": "Tips 2 Placeholder",
+          "Feature_fundTransfer": "Fund Transfer"
+        },
+        "cardNameList" : {
+          "Wallet": "Wallet",
+          "Deposit": "HKD Deposits",
+          "CreditCard": "Credit Cards",
+          "ForeignCurrencyDeposit": "Foreign Currency Deposits",
+          "Loan": "Loans",
+          "Mortgage": "Mortgages",
+          "TimeDeposit": "Time Deposits",
+          "Securities": "Securities",
+          "UnitTrust": "Unit Trusts",
+          "Bonds": "Bonds/Notes",
+          "CertificateOfDeposit": "Certificate of Deposit",
+          "EquityLinkedNodes": "Equity Linked Notes",
+          "EquityLinkedInvestment": "Equity Linked Investment",
+          "ForeignStock": "Foreign Stock",
+          "MarginTrading": "Securities Margin",
+          "OtherInvestments": "Other Investments",
+
+          "businessDeposit": "HKD Deposits",
+          "businessCreditCard": "Credit Cards",
+          "businessForeignCurrencyDeposit": "Foreign Currency Deposits",
+          "businessLoan": "Loans",
+          "businessMortgage": "Mortgages",
+          "businessTimeDeposit": "Time Deposits",
+          "businessSecurities": "Securities",
+          "businessUnitTrust": "Unit Trusts",
+          "businessBonds": "Bonds/Notes",
+          "businessCertificateOfDeposit": "Certificate of Deposit",
+          "businessEquityLinkedNodes": "Equity Linked Notes",
+          "businessEquityLinkedInvestment": "Equity Linked Investment",
+          "businessForeignStock": "Foreign Stock",
+          "businessMarginTrading": "Securities Margin",
+          "businessOtherInvestments": "Other Investments",
+          "WealthManagementConnect": "Wealth Management Connect"
+        },
+        "equiv": "*Equiv.",
+        "more": "More",
+        "close": "Close",
+        "inactiveActionNameListByCard" : {
+          "CreditCard": "Learn more",
+          "Securities": "Open account",
+          "UnitTrust": "Open account"
+        },
+        "inactiveActionContentListByCard" : {
+          "CreditCard": {
+            "title": "Apply for credit card services",
+            "message": [
+              "OCBC Wing Hang offers you with wide ranges of credit card services, which suits your needs under any circumstances.",
+              "To apply for credit card, please visit any of our branches or call our hotline 2543 2223 for enquiry."
+            ]
+          },
+          "Securities": {
+            "title": "Open your investment account",
+            "message": [
+              "You have not yet opened your investment account.",
+              "To open an investment account, please visit Personal Internet Banking or any of our branches.",
+              "For any enquiries, please call our customer service hotline 3199 9188."
+            ]
+          },
+          "UnitTrust": {
+            "title": "Open your investment account",
+            "message": [
+              "You have not yet opened your investment account.",
+              "To open an investment account, please visit Personal Internet Banking or any of our branches.",
+              "For any enquiries, please call our customer service hotline 3199 9188."
+            ]
+          }
+        }
+      },
+      "userData": {
+        "businessFlag": true,
+        "premierFlag": true,
+        "personalFlag": false,
+        "transferFlag": true,
+        "defaultAccountType": "Premier",
+        "businessList": [
+          "businessDeposit",
+          "businessForeignCurrencyDeposit",
+          "businessTimeDeposit",
+          "businessCreditCard",
+          "businessLoan",
+          "businessMortgage",
+          "businessSecurities",
+          "businessUnitTrust",
+          "businessOtherInvestments"
+        ],
+        "personalList": [
+          "Deposit",
+          "Securities",
+          "UnitTrust"
+        ]
+      }
+    }
+  }
+}
+
+
+
+
+
