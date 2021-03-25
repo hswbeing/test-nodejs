@@ -1,72 +1,68 @@
 {
-  "utInfo":{
-    "retMsg":"success",
-    "retCode":"0000",
-    "data":{
-      "pageData": {
-        "unitTrusts": "Unit trusts",
-        "index": 5,
-        "totalNetAssets": "Total Net Assets",
-        "noOfUnits": "No. of Units",
-        "marketValue1": "Market Value (HKD)",
-        "marketValue2": "Market Value (CCY)",
-        "assetCurrency": "Asset Currency",
-
-        "refExchangeRate": "Ref. Exchange Rate",
-        "previousClosingPrice": "Previous Closing",
-        "riskRating": "Risk Rating",
-        "lastUpdatedAt": "Last updated at",
-        "hkt": "HKT",
-        "viewMore": "View More >",
-        "equiv": "*Equiv.",
-        "footerText": "R = Redeem , S = Switch",
-        "wmcLabel": "WMC"
-      },
-      "userData": {
-        "accountDetails":[
-          {
-            "ivsAccountNumber" : "630327-740",
-            "totalNetAssetHKDValue" : 530000,
-            "accountType" : "Unit Trust A",
-            "lastUpdateTime": "2020-02-01T00:00:00.000",
-            "totalNetAssetHKDValueType": "HKD",
-            "totalNetAssetValue": 540000,
-            "totalNetAssetValueType": "USD",
-            "isWMC": "Y",
-
-            "portfolioDetails": [
-              {
-                "productID" : "A00231323",
-                "productName" : "China Growth Bonds",
-                "riskLevel" : "II",
-                "prodCcy" : "EUR",
-                "noOfUnits" : 523.111,
-                "prevClosePrice" : 232.01837,
-                "prevClosePriceType": "EUR",
-                "unitDecimalPoint": 2,
-                "exchangeRate" : 0.865234,
-                "marketValue" : 540000.00,
-                "marketValueHKD" : 540000.00,
-                "marketValueHKDType" : "HKD"
-              },
-              {
-                "productID" : "A00231323",
-                "productName" : "Hong Kong Growth Bonds",
-                "riskLevel" : "II",
-                "prodCcy" : "HKD",
-                "noOfUnits" : 1006,
-                "prevClosePrice" : 120.01837,
-                "prevClosePriceType": "HKD",
-                "unitDecimalPoint": 2,
-                "exchangeRate" : 1,
-                "marketValue" : 40246.00,
-                "marketValueHKD" : 40246.00,
-                "marketValueHKDType" : "HKD"
-              }
-            ]
-          }
-        ]
-      }
+  "retMsg": "success",
+  "retCode": "0000",
+  "data": {
+    "pageData": {
+      "unitTrusts": "Unit trusts",
+      "index": 5,
+      "totalNetAssets": "Total Net Assets",
+      "noOfUnits": "No. of Units",
+      "marketValue1": "Market Value (HKD)",
+      "marketValue2": "Market Value (CCY)",
+      "assetCurrency": "Asset Currency",
+      "refExchangeRate": "Ref. Exchange Rate",
+      "previousClosingPrice": "Previous Closing",
+      "riskRating": "Risk Rating",
+      "lastUpdatedAt": "Last updated at",
+      "hkt": "HKT",
+      "viewMore": "View More >",
+      "equiv": "*Equiv.",
+      "footerText": "R = Redeem , S = Switch",
+      "wmcLabel": "WMC"
+    },
+    "userData": {
+      "accountDetails": [
+        {
+          "ivsAccountNumber": "630327-740",
+          "totalNetAssetHKDValue": 530000,
+          "accountType": "Unit Trust A",
+          "lastUpdateTime": "2020-02-01T00:00:00.000",
+          "totalNetAssetHKDValueType": "HKD",
+          "totalNetAssetValue": 540000,
+          "totalNetAssetValueType": "USD",
+          "isWMC": "Y",
+          "portfolioDetails": [
+            {
+              "productID": "A00231323",
+              "productName": "China Growth Bonds",
+              "riskLevel": "II",
+              "prodCcy": "EUR",
+              "noOfUnits": 523.111,
+              "prevClosePrice": 232.01837,
+              "prevClosePriceType": "EUR",
+              "unitDecimalPoint": 2,
+              "exchangeRate": 0.865234,
+              "marketValue": 540000,
+              "marketValueHKD": 540000,
+              "marketValueHKDType": "HKD"
+            },
+            {
+              "productID": "A00231323",
+              "productName": "Hong Kong Growth Bonds",
+              "riskLevel": "II",
+              "prodCcy": "HKD",
+              "noOfUnits": 1006,
+              "prevClosePrice": 120.01837,
+              "prevClosePriceType": "HKD",
+              "unitDecimalPoint": 2,
+              "exchangeRate": 1,
+              "marketValue": 40246,
+              "marketValueHKD": 40246,
+              "marketValueHKDType": "HKD"
+            }
+          ]
+        }
+      ]
     }
   }
 }

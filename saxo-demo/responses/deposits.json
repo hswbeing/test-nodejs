@@ -1,114 +1,110 @@
 {
-  "depositAcctInfo": {
-    "status": {
-      "code": "0000",
-      "message": "success"
-    },
-    "data": {
-      "userData": {
-        "totalBalance": 1440418.7,
-        "depositList": [
-          {
-            "depositInfo": {
-              "accountNum": "2924970-100",
-              "accountType": "HC",
-              "acctTypeName": "HKD Savings (TypeName)",
-              "acctShortName": "HKD Savings",
-              "acctCcyName": "HKD",
-              "branchCode": "012",
-              "ledgerBal": -820209.35,
-              "availableBal": -820209.55,
-              "creditLimit": 700.00,
-              "lastMonthDepositAmount": 18500.00,
-              "lastMonthWithdrawalAmount": 18500.00,
-              "accountMsg": "",
-              "accountFlag": false,
-              "isWMC": "Y"
-
-            },
-            "transaction": {
-              "accountNum": "2924970-100",
-              "lastMthendBalSign": "+",
-              "lastMthendBal": -7600.0,
-              "thisMthDate": "2020-06-30",
-              "lastMth1CrTtl": 26100.00,
-              "lastMth1DrTtl": 0,
-              "lastMth2CrTtl": 18500.0,
-              "lastMth2DrTtl": 0,
-              "lastMth3CrTtl": 28100.9,
-              "lastMth3DrTtl": 0,
-              "lastMth4CrTtl": 27822.9,
-              "lastMth4DrTtl": 0,
-              "lastMth5CrTtl": 18500.9,
-              "lastMth5DrTtl": 0,
-              "lastMth6CrTtl": 26100.9,
-              "lastMth6DrTtl": 0
-            }
+  "status": {
+    "code": "0000",
+    "message": "success"
+  },
+  "data": {
+    "userData": {
+      "totalBalance": 1440418.7,
+      "depositList": [
+        {
+          "depositInfo": {
+            "accountNum": "2924970-100",
+            "accountType": "HC",
+            "acctTypeName": "HKD Savings (TypeName)",
+            "acctShortName": "HKD Savings",
+            "acctCcyName": "HKD",
+            "branchCode": "012",
+            "ledgerBal": -820209.35,
+            "availableBal": -820209.55,
+            "creditLimit": 700,
+            "lastMonthDepositAmount": 18500,
+            "lastMonthWithdrawalAmount": 18500,
+            "accountMsg": "",
+            "accountFlag": false,
+            "isWMC": "Y"
           },
-          {
-            "depositInfo": {
-              "accountNum": "2924970-101",
-              "accountType": "HB",
-              "acctCcyName": "HKD",
-              "acctCcyCode": "334",
-              "acctTypeName": "Current Account (TypeName)",
-              "acctShortName": "Current Account",
-              "branchCode": "012",
-              "ledgerBal": 820209.35,
-              "availableBal": 820209.28,
-              "creditLimit": 700.00,
-              "lastMonthDepositAmount": 18500.00,
-              "lastMonthWithdrawalAmount": 8500.00,
-              "accountMsg": "",
-              "accountFlag": false,
-              "isWMC": "N"
-
-            },
-            "transaction": {
-              "accountNum": "2924970-101",
-              "lastMthendBalSign": "-",
-              "lastMthendBal": 810209.35,
-              "thisMthDate": "2020-06-01",
-              "lastMth1CrTtl": 18500.00,
-              "lastMth1DrTtl": 8500.00,
-              "lastMth2CrTtl": 18000.9,
-              "lastMth2DrTtl": 10500.23,
-              "lastMth3CrTtl": 17900.9,
-              "lastMth3DrTtl": 10500.23,
-              "lastMth4CrTtl": 19000.9,
-              "lastMth4DrTtl": 11000.00,
-              "lastMth5CrTtl": 16000.9,
-              "lastMth5DrTtl": 13200.23,
-              "lastMth6CrTtl": 15000.9,
-              "lastMth6DrTtl": 12346.23
-            }
-}
-            ]
-      },
-      "pageData": {
-          "deposits": "Deposits",
-          "totalBalance": "Total Balance",
-          "creditLimit": "Credit Limit",
-          "availableBalance": "Available Balance",
-          "lastMonthsBalance": "Last Month's Balance",
-          "lastMonthsMoneyOut": "Last Month's Money-out",
-          "lastMonthsMoneyIn": "Last Month's Money-in",
-          "months": [
-            "Jan",
-            "Feb",
-            "Mar",
-            "Apr",
-            "May",
-            "Jun",
-            "Jul",
-            "Aug",
-            "Sep",
-            "Oct",
-            "Nov",
-            "Dec"
-          ],
-          "wmcLabel": "WMC"
-      }
+          "transaction": {
+            "accountNum": "2924970-100",
+            "lastMthendBalSign": "+",
+            "lastMthendBal": -7600,
+            "thisMthDate": "2020-06-30",
+            "lastMth1CrTtl": 26100,
+            "lastMth1DrTtl": 0,
+            "lastMth2CrTtl": 18500,
+            "lastMth2DrTtl": 0,
+            "lastMth3CrTtl": 28100.9,
+            "lastMth3DrTtl": 0,
+            "lastMth4CrTtl": 27822.9,
+            "lastMth4DrTtl": 0,
+            "lastMth5CrTtl": 18500.9,
+            "lastMth5DrTtl": 0,
+            "lastMth6CrTtl": 26100.9,
+            "lastMth6DrTtl": 0
+          }
+        },
+        {
+          "depositInfo": {
+            "accountNum": "2924970-101",
+            "accountType": "HB",
+            "acctCcyName": "HKD",
+            "acctCcyCode": "334",
+            "acctTypeName": "Current Account (TypeName)",
+            "acctShortName": "Current Account",
+            "branchCode": "012",
+            "ledgerBal": 820209.35,
+            "availableBal": 820209.28,
+            "creditLimit": 700,
+            "lastMonthDepositAmount": 18500,
+            "lastMonthWithdrawalAmount": 8500,
+            "accountMsg": "",
+            "accountFlag": false,
+            "isWMC": "N"
+          },
+          "transaction": {
+            "accountNum": "2924970-101",
+            "lastMthendBalSign": "-",
+            "lastMthendBal": 810209.35,
+            "thisMthDate": "2020-06-01",
+            "lastMth1CrTtl": 18500,
+            "lastMth1DrTtl": 8500,
+            "lastMth2CrTtl": 18000.9,
+            "lastMth2DrTtl": 10500.23,
+            "lastMth3CrTtl": 17900.9,
+            "lastMth3DrTtl": 10500.23,
+            "lastMth4CrTtl": 19000.9,
+            "lastMth4DrTtl": 11000,
+            "lastMth5CrTtl": 16000.9,
+            "lastMth5DrTtl": 13200.23,
+            "lastMth6CrTtl": 15000.9,
+            "lastMth6DrTtl": 12346.23
+          }
+        }
+      ]
+    },
+    "pageData": {
+      "deposits": "Deposits",
+      "totalBalance": "Total Balance",
+      "creditLimit": "Credit Limit",
+      "availableBalance": "Available Balance",
+      "lastMonthsBalance": "Last Month's Balance",
+      "lastMonthsMoneyOut": "Last Month's Money-out",
+      "lastMonthsMoneyIn": "Last Month's Money-in",
+      "months": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "wmcLabel": "WMC"
     }
   }
 }

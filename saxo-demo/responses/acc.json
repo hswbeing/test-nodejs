@@ -1,555 +1,536 @@
 {
-    "acctList-Personal":{
-      "status": {
-        "code": "0000",
-        "message": "success"
-      },
-      "data": {
-        "userData": {
-          "totalBalance": 9233443.1,
-          "totalAssetsEQV": 9233443.1,
-          "totalLiabilitiesEQV": 17189769.05,
+  "status": {
+    "code": "0000",
+    "message": "success"
+  },
+  "data": {
+    "userData": {
+      "totalBalance": 9233443.1,
+      "totalAssetsEQV": 9233443.1,
+      "totalLiabilitiesEQV": 17189769.05,
+      "ccy": "HKD",
+      "cardList": [
+        {
+          "labelName": "Wallet",
+          "totalBalance": 98498.28,
+          "totalAssetsEQV": 98498.28,
+          "totalLiabilitiesEQV": 0,
           "ccy": "HKD",
-          "cardList": [
+          "acctBalList": [
             {
-              "labelName": "Wallet",
-              "totalBalance": 98498.28,
-              "totalAssetsEQV": 98498.28,
-              "totalLiabilitiesEQV": 0,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "myWallet Account",
-                  "accountNum": "2924970-100",
-                  "branchCode": "012",
-                  "balanceCcy": "HKD",
-                  "balance": 98498.28,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 98498.28,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HB",
-                  "isWMC": "Y"
-                }
-              ]
+              "accountName": "myWallet Account",
+              "accountNum": "2924970-100",
+              "branchCode": "012",
+              "balanceCcy": "HKD",
+              "balance": 98498.28,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 98498.28,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HB",
+              "isWMC": "Y"
+            }
+          ]
+        },
+        {
+          "labelName": "Deposit",
+          "totalBalance": 1640418.7,
+          "totalAssetsEQV": 1640418.7,
+          "totalLiabilitiesEQV": 0,
+          "ccy": "HKD",
+          "acctBalList": [
+            {
+              "accountName": "HKD Savings",
+              "accountNum": "2924970-100",
+              "branchCode": "012",
+              "balanceCcy": "HKD",
+              "balance": 820209.35,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 820209.35,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HC",
+              "isWMC": "Y"
             },
             {
-              "labelName": "Deposit",
-              "totalBalance": 1640418.7,
-              "totalAssetsEQV": 1640418.7,
-              "totalLiabilitiesEQV": 0,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "HKD Savings",
-                  "accountNum": "2924970-100",
-                  "branchCode": "012",
-                  "balanceCcy": "HKD",
-                  "balance": 820209.35,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 820209.35,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HC",
-                  "isWMC": "Y"
-  
-                },
-                {
-                  "accountName": "USD Savings",
-                  "accountNum": "2924970-100",
-                  "branchCode": "012",
-                  "balanceCcy": "USD",
-                  "balance": 820209.35,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 820209.35,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HC",
-                  "isWMC": "Y"
-                },
-                {
-                  "accountName": "USD Savings",
-                  "accountNum": "2924970-1011",
-                  "branchCode": "012",
-                  "balanceCcy": "USD",
-                  "balance": 820209.35,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 820209.35,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HC",
-                  "isWMC": "Y"
-                },
-                {
-                  "accountName": "HKD Savings",
-                  "accountNum": "2924970-1011",
-                  "branchCode": "012",
-                  "balanceCcy": "HKD",
-                  "balance": 820209.35,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 820209.35,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HC",
-                  "isWMC": "Y"
-                },
-                {
-                  "accountName": "Current Account",
-                  "accountNum": "2924970-101",
-                  "branchCode": "012",
-                  "balanceCcy": "HKD",
-                  "balance": 820209.35,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 820209.35,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HB",
-                  "isWMC": "N"
-  
-                }
-              ]
+              "accountName": "USD Savings",
+              "accountNum": "2924970-100",
+              "branchCode": "012",
+              "balanceCcy": "USD",
+              "balance": 820209.35,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 820209.35,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HC",
+              "isWMC": "Y"
             },
             {
-              "labelName": "ForeignCurrencyDeposit",
-              "totalBalance": 836360.99,
-              "totalAssetsEQV": 836360.99,
-              "totalLiabilitiesEQV": 4324,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "GBP Savings",
-                  "accountNum": "29249703-011",
-                  "branchCode": "012",
-                  "balanceCcy": "GBP",
-                  "balance": 80000,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 774621.579,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "Y"
-  
-                },{
-                  "accountName": "USD Savings",
-                  "accountNum": "29249704-012",
-                  "branchCode": "012",
-                  "balanceCcy": "USD",
-                  "balance": 78000,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 60454.3376,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                },{
-                  "accountName": "JPY Savings",
-                  "accountNum": "29249705-013",
-                  "branchCode": "012",
-                  "balanceCcy": "JPY",
-                  "balance": 17800,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 1285.07802,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                }
-              ]
+              "accountName": "USD Savings",
+              "accountNum": "2924970-1011",
+              "branchCode": "012",
+              "balanceCcy": "USD",
+              "balance": 820209.35,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 820209.35,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HC",
+              "isWMC": "Y"
             },
             {
-              "labelName": "TimeDeposit",
-              "totalBalance": 239859.94,
-              "totalAssetsEQV": 239859.94,
-              "totalLiabilitiesEQV": 0,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "Time Deposit Acc A",
-                  "accountNum": "3109812-006",
-                  "branchCode": "012",
-                  "balanceCcy": "HKD",
-                  "balance": 178700,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 178700,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                },
-                {
-                  "accountName": "GBP Time Deposit",
-                  "accountNum": "3109812-007",
-                  "branchCode": "012",
-                  "balanceCcy": "GBP",
-                  "balance": 6207.87,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 61159.94,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                }
-              ]
+              "accountName": "HKD Savings",
+              "accountNum": "2924970-1011",
+              "branchCode": "012",
+              "balanceCcy": "HKD",
+              "balance": 820209.35,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 820209.35,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HC",
+              "isWMC": "Y"
             },
             {
-              "labelName": "CreditCard",
-              "totalBalance": -122052.00,
-              "totalAssetsEQV": -122052.00,
-              "totalLiabilitiesEQV": 0,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "Better Platinum",
-                  "accountNum": "3284-1688-8888-8888",
-                  "branchCode": "",
-                  "balanceCcy": "HKD",
-                  "balance": 41343.00,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 41343.00,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "KZ",
-                  "isWMC": "N"
-  
-                },{
-                  "accountName": "VOYAGE",
-                  "accountNum": "3284-1688-8888-8889",
-                  "branchCode": "",
-                  "balanceCcy": "HKD",
-                  "balance": 39366.00,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 39366.00,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "KZ",
-                  "isWMC": "N"
-  
-                },{
-                  "accountName": "OWH Master",
-                  "accountNum": "2435-1234-8888-8888",
-                  "branchCode": "",
-                  "balanceCcy": "HKD",
-                  "balance": 41343.00,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 41343.00,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "KZ",
-                  "isWMC": "N"
-  
-                },{
-                  "accountName": "VISA Infinite",
-                  "accountNum": "2435-1234-8888-8889",
-                  "branchCode": "",
-                  "balanceCcy": "HKD",
-                  "balance": 2000,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 2000,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "KZ",
-                  "isWMC": "N"
-  
-                },{
-                  "accountName": "OWH Titanium Rewards (Principal)",
-                  "accountNum": "2435-1234-8888-8890",
-                  "branchCode": "",
-                  "balanceCcy": "HKD",
-                  "balance": 1350,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 1350,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "KZ",
-                  "isWMC": "N"
-  
-                }
-              ]
+              "accountName": "Current Account",
+              "accountNum": "2924970-101",
+              "branchCode": "012",
+              "balanceCcy": "HKD",
+              "balance": 820209.35,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 820209.35,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HB",
+              "isWMC": "N"
+            }
+          ]
+        },
+        {
+          "labelName": "ForeignCurrencyDeposit",
+          "totalBalance": 836360.99,
+          "totalAssetsEQV": 836360.99,
+          "totalLiabilitiesEQV": 4324,
+          "ccy": "HKD",
+          "acctBalList": [
+            {
+              "accountName": "GBP Savings",
+              "accountNum": "29249703-011",
+              "branchCode": "012",
+              "balanceCcy": "GBP",
+              "balance": 80000,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 774621.579,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "Y"
             },
             {
-              "labelName": "Loan",
-              "totalBalance": 9124105.35,
-              "totalAssetsEQV": 9124105.35,
-              "totalLiabilitiesEQV": 4324,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "Personal Loan A",
-                  "accountNum": "4627-0976-00",
-                  "branchCode": "",
-                  "balanceCcy": "HKD",
-                  "balance": 1234455,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 1234455,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                },{
-                  "accountName": "Personal Loan B",
-                  "accountNum": "5680-0312-00",
-                  "branchCode": "",
-                  "balanceCcy": "HKD",
-                  "balance": 7889650.35,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 7889650.35,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                }
-              ]
+              "accountName": "USD Savings",
+              "accountNum": "29249704-012",
+              "branchCode": "012",
+              "balanceCcy": "USD",
+              "balance": 78000,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 60454.3376,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
             },
             {
-              "labelName": "Mortgage",
-              "totalBalance": 8187715.70,
-              "totalAssetsEQV": 8187715.70,
-              "totalLiabilitiesEQV": 4324,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "Mortgage A",
-                  "accountNum": "4627-0976-00",
-                  "branchCode": "",
-                  "balanceCcy": "HKD",
-                  "balance": 298065.40,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 298065.40,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                },{
-                  "accountName": "Mortgage B",
-                  "accountNum": "5680-0312-00",
-                  "branchCode": "",
-                  "balanceCcy": "HKD",
-                  "balance": 7889650.30,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 7889650.30,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                }
-              ]
+              "accountName": "JPY Savings",
+              "accountNum": "29249705-013",
+              "branchCode": "012",
+              "balanceCcy": "JPY",
+              "balance": 17800,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 1285.07802,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
+            }
+          ]
+        },
+        {
+          "labelName": "TimeDeposit",
+          "totalBalance": 239859.94,
+          "totalAssetsEQV": 239859.94,
+          "totalLiabilitiesEQV": 0,
+          "ccy": "HKD",
+          "acctBalList": [
+            {
+              "accountName": "Time Deposit Acc A",
+              "accountNum": "3109812-006",
+              "branchCode": "012",
+              "balanceCcy": "HKD",
+              "balance": 178700,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 178700,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
             },
             {
-              "labelName": "Securities",
-              "totalBalance": 787523.01,
-              "totalAssetsEQV": 787523.01,
-              "totalLiabilitiesEQV": 4324,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "Investment Acc A",
-                  "accountNum": "630327-740",
-                  "branchCode": "",
-                  "balanceCcy": "HKD",
-                  "balance": 90000,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 90000,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                },{
-                  "accountName": "Investment Acc B",
-                  "accountNum": "630327-742",
-                  "branchCode": "",
-                  "balanceCcy": "USD",
-                  "balance": 90000,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 697523.018,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                }
-              ]
+              "accountName": "GBP Time Deposit",
+              "accountNum": "3109812-007",
+              "branchCode": "012",
+              "balanceCcy": "GBP",
+              "balance": 6207.87,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 61159.94,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
+            }
+          ]
+        },
+        {
+          "labelName": "CreditCard",
+          "totalBalance": -122052,
+          "totalAssetsEQV": -122052,
+          "totalLiabilitiesEQV": 0,
+          "ccy": "HKD",
+          "acctBalList": [
+            {
+              "accountName": "Better Platinum",
+              "accountNum": "3284-1688-8888-8888",
+              "branchCode": "",
+              "balanceCcy": "HKD",
+              "balance": 41343,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 41343,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "KZ",
+              "isWMC": "N"
             },
             {
-              "labelName": "UnitTrust",
-              "totalBalance": 530000,
-              "totalAssetsEQV": 530000,
-              "totalLiabilitiesEQV": 0,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "Unit Trust A",
-                  "accountNum": "630327-740",
-                  "branchCode": "",
-                  "balanceCcy": "HKD",
-                  "balance": 530000,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 530000,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "Y"
-  
-                }
-              ]
+              "accountName": "VOYAGE",
+              "accountNum": "3284-1688-8888-8889",
+              "branchCode": "",
+              "balanceCcy": "HKD",
+              "balance": 39366,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 39366,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "KZ",
+              "isWMC": "N"
             },
             {
-              "labelName": "OtherInvestments",
-              "totalBalance": 2829650,
-              "totalAssetsEQV": 0,
-              "totalLiabilitiesEQV": 2929650,
-              "ccy": "HKD",
-              "acctBalList": []
+              "accountName": "OWH Master",
+              "accountNum": "2435-1234-8888-8888",
+              "branchCode": "",
+              "balanceCcy": "HKD",
+              "balance": 41343,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 41343,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "KZ",
+              "isWMC": "N"
             },
             {
-              "labelName": "Bonds",
-              "totalBalance": 1450350,
-              "totalAssetsEQV": 0,
-              "totalLiabilitiesEQV": 1450350,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "Investment Account A",
-                  "accountNum": "630327-742",
-                  "branchCode": "",
-                  "balanceCcy": "USD",
-                  "balance": 1450350,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 1450350,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                }
-              ]
+              "accountName": "VISA Infinite",
+              "accountNum": "2435-1234-8888-8889",
+              "branchCode": "",
+              "balanceCcy": "HKD",
+              "balance": 2000,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 2000,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "KZ",
+              "isWMC": "N"
             },
             {
-              "labelName": "CertificateOfDeposit",
-              "totalBalance": 356135,
-              "totalAssetsEQV": 78000,
-              "totalLiabilitiesEQV": 356135,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "Investment Account A",
-                  "accountNum": "209630327-740",
-                  "branchCode": "",
-                  "balanceCcy": "USD",
-                  "balance": 356135,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 356135,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                }
-              ]
+              "accountName": "OWH Titanium Rewards (Principal)",
+              "accountNum": "2435-1234-8888-8890",
+              "branchCode": "",
+              "balanceCcy": "HKD",
+              "balance": 1350,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 1350,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "KZ",
+              "isWMC": "N"
+            }
+          ]
+        },
+        {
+          "labelName": "Loan",
+          "totalBalance": 9124105.35,
+          "totalAssetsEQV": 9124105.35,
+          "totalLiabilitiesEQV": 4324,
+          "ccy": "HKD",
+          "acctBalList": [
+            {
+              "accountName": "Personal Loan A",
+              "accountNum": "4627-0976-00",
+              "branchCode": "",
+              "balanceCcy": "HKD",
+              "balance": 1234455,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 1234455,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
             },
             {
-              "labelName": "EquityLinkedNodes",
-              "totalBalance": 3165111.8,
-              "totalAssetsEQV": 0,
-              "totalLiabilitiesEQV": 3165111.8,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "Investment Account A",
-                  "accountNum": "209630327-740",
-                  "branchCode": "",
-                  "balanceCcy": "USD",
-                  "balance": 3165111.8,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 3165111.8,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                }
-              ]
+              "accountName": "Personal Loan B",
+              "accountNum": "5680-0312-00",
+              "branchCode": "",
+              "balanceCcy": "HKD",
+              "balance": 7889650.35,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 7889650.35,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
+            }
+          ]
+        },
+        {
+          "labelName": "Mortgage",
+          "totalBalance": 8187715.7,
+          "totalAssetsEQV": 8187715.7,
+          "totalLiabilitiesEQV": 4324,
+          "ccy": "HKD",
+          "acctBalList": [
+            {
+              "accountName": "Mortgage A",
+              "accountNum": "4627-0976-00",
+              "branchCode": "",
+              "balanceCcy": "HKD",
+              "balance": 298065.4,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 298065.4,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
             },
             {
-              "labelName": "EquityLinkedInvestment",
-              "totalBalance": 133331.833,
-              "totalAssetsEQV": 0,
-              "totalLiabilitiesEQV": 133331.833,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "Investment Account A",
-                  "accountNum": "209630327-740",
-                  "branchCode": "",
-                  "balanceCcy": "USD",
-                  "balance": 133331.833,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 133331.833,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                }
-              ]
+              "accountName": "Mortgage B",
+              "accountNum": "5680-0312-00",
+              "branchCode": "",
+              "balanceCcy": "HKD",
+              "balance": 7889650.3,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 7889650.3,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
+            }
+          ]
+        },
+        {
+          "labelName": "Securities",
+          "totalBalance": 787523.01,
+          "totalAssetsEQV": 787523.01,
+          "totalLiabilitiesEQV": 4324,
+          "ccy": "HKD",
+          "acctBalList": [
+            {
+              "accountName": "Investment Acc A",
+              "accountNum": "630327-740",
+              "branchCode": "",
+              "balanceCcy": "HKD",
+              "balance": 90000,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 90000,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
             },
             {
-              "labelName": "ForeignStock",
-              "totalBalance": 1351.833,
-              "totalAssetsEQV": 0,
-              "totalLiabilitiesEQV": 1351.833,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "Investment Account A",
-                  "accountNum": "209630327-740",
-                  "branchCode": "",
-                  "balanceCcy": "USD",
-                  "balance": 1351.833,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 1351.833,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                }
-              ]
-            },
+              "accountName": "Investment Acc B",
+              "accountNum": "630327-742",
+              "branchCode": "",
+              "balanceCcy": "USD",
+              "balance": 90000,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 697523.018,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
+            }
+          ]
+        },
+        {
+          "labelName": "UnitTrust",
+          "totalBalance": 530000,
+          "totalAssetsEQV": 530000,
+          "totalLiabilitiesEQV": 0,
+          "ccy": "HKD",
+          "acctBalList": [
             {
-              "labelName": "MarginTrading",
-              "totalBalance": 78000,
-              "totalAssetsEQV": 78000,
-              "totalLiabilitiesEQV": 0,
-              "ccy": "HKD",
-              "acctBalList": [
-                {
-                  "accountName": "Securities USD",
-                  "accountNum": "209630327-740",
-                  "branchCode": "",
-                  "balanceCcy": "USD",
-                  "balance": 230000,
-                  "baseCcy": "HKD",
-                  "baseCcyBalance": 1794000,
-                  "accountMsg": "",
-                  "accountFlag": false,
-                  "accountType": "HE",
-                  "isWMC": "N"
-  
-                }
-              ]
+              "accountName": "Unit Trust A",
+              "accountNum": "630327-740",
+              "branchCode": "",
+              "balanceCcy": "HKD",
+              "balance": 530000,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 530000,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "Y"
+            }
+          ]
+        },
+        {
+          "labelName": "OtherInvestments",
+          "totalBalance": 2829650,
+          "totalAssetsEQV": 0,
+          "totalLiabilitiesEQV": 2929650,
+          "ccy": "HKD",
+          "acctBalList": []
+        },
+        {
+          "labelName": "Bonds",
+          "totalBalance": 1450350,
+          "totalAssetsEQV": 0,
+          "totalLiabilitiesEQV": 1450350,
+          "ccy": "HKD",
+          "acctBalList": [
+            {
+              "accountName": "Investment Account A",
+              "accountNum": "630327-742",
+              "branchCode": "",
+              "balanceCcy": "USD",
+              "balance": 1450350,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 1450350,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
+            }
+          ]
+        },
+        {
+          "labelName": "CertificateOfDeposit",
+          "totalBalance": 356135,
+          "totalAssetsEQV": 78000,
+          "totalLiabilitiesEQV": 356135,
+          "ccy": "HKD",
+          "acctBalList": [
+            {
+              "accountName": "Investment Account A",
+              "accountNum": "209630327-740",
+              "branchCode": "",
+              "balanceCcy": "USD",
+              "balance": 356135,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 356135,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
+            }
+          ]
+        },
+        {
+          "labelName": "EquityLinkedNodes",
+          "totalBalance": 3165111.8,
+          "totalAssetsEQV": 0,
+          "totalLiabilitiesEQV": 3165111.8,
+          "ccy": "HKD",
+          "acctBalList": [
+            {
+              "accountName": "Investment Account A",
+              "accountNum": "209630327-740",
+              "branchCode": "",
+              "balanceCcy": "USD",
+              "balance": 3165111.8,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 3165111.8,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
+            }
+          ]
+        },
+        {
+          "labelName": "EquityLinkedInvestment",
+          "totalBalance": 133331.833,
+          "totalAssetsEQV": 0,
+          "totalLiabilitiesEQV": 133331.833,
+          "ccy": "HKD",
+          "acctBalList": [
+            {
+              "accountName": "Investment Account A",
+              "accountNum": "209630327-740",
+              "branchCode": "",
+              "balanceCcy": "USD",
+              "balance": 133331.833,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 133331.833,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
+            }
+          ]
+        },
+        {
+          "labelName": "ForeignStock",
+          "totalBalance": 1351.833,
+          "totalAssetsEQV": 0,
+          "totalLiabilitiesEQV": 1351.833,
+          "ccy": "HKD",
+          "acctBalList": [
+            {
+              "accountName": "Investment Account A",
+              "accountNum": "209630327-740",
+              "branchCode": "",
+              "balanceCcy": "USD",
+              "balance": 1351.833,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 1351.833,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
+            }
+          ]
+        },
+        {
+          "labelName": "MarginTrading",
+          "totalBalance": 78000,
+          "totalAssetsEQV": 78000,
+          "totalLiabilitiesEQV": 0,
+          "ccy": "HKD",
+          "acctBalList": [
+            {
+              "accountName": "Securities USD",
+              "accountNum": "209630327-740",
+              "branchCode": "",
+              "balanceCcy": "USD",
+              "balance": 230000,
+              "baseCcy": "HKD",
+              "baseCcyBalance": 1794000,
+              "accountMsg": "",
+              "accountFlag": false,
+              "accountType": "HE",
+              "isWMC": "N"
             }
           ]
         }
-      }
+      ]
     }
   }
-  
+}
