@@ -84,7 +84,7 @@ router.get('/trusts', async function(req, res, next) {
       trusts.data.userData.accountDetails[0].portfolioDetails.push(profolio);
     }
   }
-  console.log("total: " + total);
+  
   trusts.data.userData.accountDetails[0].totalNetAssetValue = total;
   trusts.data.userData.accountDetails[0].totalNetAssetHKDValue = total * 7.8;
 
@@ -93,7 +93,6 @@ router.get('/trusts', async function(req, res, next) {
   // Update acc json
   let acc = JSON.parse(fs.readFileSync('responses/acc.json'));
   acc.data.userData.cardList.forEach((card) => {
-    console.log("card.labelName: " + card.labelName);
     if (card.labelName == "UnitTrust") {
       card.totalBalance = total
       card.totalAssetsEQV = total
@@ -105,10 +104,8 @@ router.get('/trusts', async function(req, res, next) {
     if (card.labelName == "Securities") {
       accTotal = accTotal + card.totalBalance;
     }
-    console.log("accTotal: " + accTotal);
   });
   
-  console.log("accTotal: " + accTotal);
   acc.data.userData.totalBalance = accTotal;
   acc.data.userData.totalAssetsEQV = accTotal;
 
