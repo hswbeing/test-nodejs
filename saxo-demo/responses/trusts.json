@@ -32,34 +32,6 @@
           "totalNetAssetValueType": "USD",
           "isWMC": "Y",
           "portfolioDetails": [
-            {
-              "productID": "A00231323",
-              "productName": "China Growth Bonds",
-              "riskLevel": "II",
-              "prodCcy": "EUR",
-              "noOfUnits": 523.111,
-              "prevClosePrice": 232.01837,
-              "prevClosePriceType": "EUR",
-              "unitDecimalPoint": 2,
-              "exchangeRate": 0.865234,
-              "marketValue": 540000,
-              "marketValueHKD": 540000,
-              "marketValueHKDType": "HKD"
-            },
-            {
-              "productID": "A00231323",
-              "productName": "Hong Kong Growth Bonds",
-              "riskLevel": "II",
-              "prodCcy": "HKD",
-              "noOfUnits": 1006,
-              "prevClosePrice": 120.01837,
-              "prevClosePriceType": "HKD",
-              "unitDecimalPoint": 2,
-              "exchangeRate": 1,
-              "marketValue": 40246,
-              "marketValueHKD": 40246,
-              "marketValueHKDType": "HKD"
-            }
           ]
         }
       ]
