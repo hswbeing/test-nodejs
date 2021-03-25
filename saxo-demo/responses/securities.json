@@ -1,0 +1,86 @@
+{
+  "securitiesInfo":{
+    "status":{
+      "code":"0000",
+      "message":"success"
+    },
+    "data":{
+      "pageData":{
+        "securities": "Securities",
+        "availableForTrade": "Available For Trade",
+        "lastUpdatedAt": "Last updated at",
+        "hkt": "HKT",
+        "viewMore": "More",
+        "equiv": "*Equiv."
+
+      },
+      "userData":{
+        "totalNetAssets":787523.01,
+        "totalNetAssetsCcyName":"HKD",
+        "accountList":[
+          {
+            "accountType":"Investment Acc A",
+            "accountCcy":"HKD",
+            "accountNo":"630327-740",
+            "principal":90000.00,
+            "principalEquivHKD":90000.00,
+            "lastUpdateTime":"2020-03-09T01:00:00.000",
+            "stockList":[
+              {
+                "stockName":"CKH HOLDINGS",
+                "stockDesc":"0001",
+                "netQuantity":2456
+              },
+              {
+                "stockName":"TRAVELSKY TECH",
+                "stockDesc":"0696",
+                "netQuantity":145
+              },
+              {
+                "stockName":"SWIREPROPERTIES",
+                "stockDesc":"1972",
+                "netQuantity":2456
+              },
+              {
+                "stockName":"ESPRIT HOLDINGS",
+                "stockDesc":"0330",
+                "netQuantity":2365
+              },
+              {
+                "stockName":"BANK OF E ASIA",
+                "stockDesc":"0023",
+                "netQuantity":1765
+              }
+            ]
+          },
+          {
+            "accountType":"Investment Acc B",
+            "accountCcy":"USD",
+            "accountNo":"630327-742",
+            "principal":90000.00,
+            "principalEquivHKD":697523.018,
+            "lastUpdateTime":"2020-03-09T01:00:00.000",
+            "stockList":[
+              {
+                "stockName":"PANASIALUM",
+                "stockDesc":"2078",
+                "netQuantity":3456
+              },
+              {
+                "stockName":"SINO LAND",
+                "stockDesc":"0083",
+                "netQuantity":1456
+              },
+              {
+                "stockName":"LVGEM CHINA",
+                "stockDesc":"0095",
+                "netQuantity":25000
+              }
+            ]
+          }
+
+        ]
+      }
+    }
+  }
+}
