@@ -9,27 +9,32 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/acc', function(req, res, next) {
-  let acc = JSON.parse(fs.readFileSync('responses/acc.json'))
+  let acc = JSON.parse(fs.readFileSync('responses/acc.json'));
+  res.setHeader('Content-Type', 'application/json');
   res.send(JSON.stringify(acc));
 });
 
 router.get('/deposits', function(req, res, next) {
-  let deposits = JSON.parse(fs.readFileSync('responses/deposits.json'))
+  let deposits = JSON.parse(fs.readFileSync('responses/deposits.json'));
+  res.setHeader('Content-Type', 'application/json');
   res.send(JSON.stringify(deposits));
 });
 
 router.get('/trusts', function(req, res, next) {
-  let trusts = JSON.parse(fs.readFileSync('responses/trusts.json'))
+  let trusts = JSON.parse(fs.readFileSync('responses/trusts.json'));
+  res.setHeader('Content-Type', 'application/json');
   res.send(JSON.stringify(trusts));
 });
 
 router.get('/securities', function(req, res, next) {
-  let securities = JSON.parse(fs.readFileSync('responses/securities.json'))
+  let securities = JSON.parse(fs.readFileSync('responses/securities.json'));
+  res.setHeader('Content-Type', 'application/json');
   res.send(JSON.stringify(securities));
 });
 
 router.get('/overview', function(req, res, next) {
-  let overview = JSON.parse(fs.readFileSync('responses/overview.json'))
+  let overview = JSON.parse(fs.readFileSync('responses/overview.json'));
+  res.setHeader('Content-Type', 'application/json');
   res.send(JSON.stringify(overview));
 });
 module.exports = router;
